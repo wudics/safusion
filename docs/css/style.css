@@ -1,0 +1,978 @@
+#content {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #000;
+    margin-top: 35px;
+}
+
+/*main start*/
+#main {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 260px;
+    height: 460px;
+    border: 1px solid #000;
+}
+
+#main_title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+#main_race {
+    margin-left: 5px;
+}
+
+#main_race_select {
+    width: 180px;
+}
+
+#main_pet {
+    margin-left: 5px;
+}
+
+#main_pet_select {
+    width: 180px;
+}
+
+#main_img {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+}
+
+#main_img_show {
+    max-height: 80px;
+    width: auto;
+}
+
+#main_point_v {
+    margin-left: 5px;
+}
+
+#main_point_v_input {
+    width: 40px;
+}
+
+#main_point_s {
+    margin-left: 5px;
+}
+
+#main_point_s_input {
+    width: 40px;
+}
+
+#main_point_t {
+    margin-left: 5px;
+}
+
+#main_point_t_input {
+    width: 40px;
+}
+
+#main_point_d {
+    margin-left: 5px;
+}
+
+#main_point_d_input {
+    width: 40px;
+}
+
+.main_point_label {
+    font-size: 14px;
+}
+
+#main_prop_p1 {
+    margin-left: 5px;
+}
+
+#main_prop_p1 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#main_prop_p2 {
+    margin-left: 5px;
+}
+
+#main_prop_p2 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#main_prop_p3 {
+    margin-left: 5px;
+}
+
+#main_prop_p3 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#main_prop_p4 {
+    margin-left: 5px;
+}
+
+#main_prop_p4 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#main_level {
+    margin-left: 5px;
+}
+
+#main_level label {
+    font-size: 10px;
+}
+
+#main_pred {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main_pred_hp {
+    position: absolute;
+    top: 400px;
+    left: 5px;
+}
+
+#main_pred_gj {
+    position: absolute;
+    top: 400px;
+    left: 110px;
+}
+
+#main_pred_fy {
+    position: absolute;
+    top: 425px;
+    left: 5px;
+}
+
+#main_pred_mj {
+    position: absolute;
+    top: 425px;
+    left: 110px;
+}
+
+#main_mm {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.main_mm_input {
+    width: 45px;
+}
+/*main end*/
+
+
+/*sub1 start*/
+#sub1 {
+    position: absolute;
+    top: 5px;
+    left: 270px;
+    width: 260px;
+    height: 460px;
+    border: 1px solid #000;
+}
+
+#sub1_title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+#sub1_race {
+    margin-left: 5px;
+}
+
+#sub1_race_select {
+    width: 180px;
+}
+
+#sub1_pet {
+    margin-left: 5px;
+}
+
+#sub1_pet_select {
+    width: 180px;
+}
+
+#sub1_img {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+}
+
+#sub1_img_show {
+    max-height: 80px;
+    width: auto;
+}
+
+#sub1_point_v {
+    margin-left: 5px;
+}
+
+#sub1_point_v_input {
+    width: 40px;
+}
+
+#sub1_point_s {
+    margin-left: 5px;
+}
+
+#sub1_point_s_input {
+    width: 40px;
+}
+
+#sub1_point_t {
+    margin-left: 5px;
+}
+
+#sub1_point_t_input {
+    width: 40px;
+}
+
+#sub1_point_d {
+    margin-left: 5px;
+}
+
+#sub1_point_d_input {
+    width: 40px;
+}
+
+.sub1_point_label {
+    font-size: 14px;
+}
+
+#sub1_prop_p1 {
+    margin-left: 5px;
+}
+
+#sub1_prop_p1 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#sub1_prop_p2 {
+    margin-left: 5px;
+}
+
+#sub1_prop_p2 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#sub1_prop_p3 {
+    margin-left: 5px;
+}
+
+#sub1_prop_p3 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#sub1_prop_p4 {
+    margin-left: 5px;
+}
+
+#sub1_prop_p4 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#sub1_level {
+    margin-left: 5px;
+}
+
+#sub1_level label {
+    font-size: 10px;
+}
+
+#sub1_pred {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sub1_pred_hp {
+    position: absolute;
+    top: 400px;
+    left: 5px;
+}
+
+#sub1_pred_gj {
+    position: absolute;
+    top: 400px;
+    left: 110px;
+}
+
+#sub1_pred_fy {
+    position: absolute;
+    top: 425px;
+    left: 5px;
+}
+
+#sub1_pred_mj {
+    position: absolute;
+    top: 425px;
+    left: 110px;
+}
+
+#sub1_mm {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.sub1_mm_input {
+    width: 45px;
+}
+/*sub1 end*/
+
+
+/*sub2 start*/
+#sub2 {
+    position: absolute;
+    top: 5px;
+    left: 535px;
+    width: 260px;
+    height: 460px;
+    border: 1px solid #000;
+}
+
+#sub2_title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+#sub2_race {
+    margin-left: 5px;
+}
+
+#sub2_race_select {
+    width: 180px;
+}
+
+#sub2_pet {
+    margin-left: 5px;
+}
+
+#sub2_pet_select {
+    width: 180px;
+}
+
+#sub2_img {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+}
+
+#sub2_img_show {
+    max-height: 80px;
+    width: auto;
+}
+
+#sub2_point_v {
+    margin-left: 5px;
+}
+
+#sub2_point_v_input {
+    width: 40px;
+}
+
+#sub2_point_s {
+    margin-left: 5px;
+}
+
+#sub2_point_s_input {
+    width: 40px;
+}
+
+#sub2_point_t {
+    margin-left: 5px;
+}
+
+#sub2_point_t_input {
+    width: 40px;
+}
+
+#sub2_point_d {
+    margin-left: 5px;
+}
+
+#sub2_point_d_input {
+    width: 40px;
+}
+
+.sub2_point_label {
+    font-size: 14px;
+}
+
+#sub2_prop_p1 {
+    margin-left: 5px;
+}
+
+#sub2_prop_p1 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#sub2_prop_p2 {
+    margin-left: 5px;
+}
+
+#sub2_prop_p2 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#sub2_prop_p3 {
+    margin-left: 5px;
+}
+
+#sub2_prop_p3 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#sub2_prop_p4 {
+    margin-left: 5px;
+}
+
+#sub2_prop_p4 img {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+}
+
+#sub2_level {
+    margin-left: 5px;
+}
+
+#sub2_level label {
+    font-size: 10px;
+}
+
+#sub2_pred {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sub2_pred_hp {
+    position: absolute;
+    top: 400px;
+    left: 5px;
+}
+
+#sub2_pred_gj {
+    position: absolute;
+    top: 400px;
+    left: 110px;
+}
+
+#sub2_pred_fy {
+    position: absolute;
+    top: 425px;
+    left: 5px;
+}
+
+#sub2_pred_mj {
+    position: absolute;
+    top: 425px;
+    left: 110px;
+}
+
+#sub2_mm {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.sub2_mm_input {
+    width: 45px;
+}
+/*sub2 end*/
+
+/*edit start*/
+#edit {
+    position: absolute;
+    top: 470px;
+    left: 5px;
+    width: 120px;
+    height: 145px;
+    border: 1px solid #000;
+}
+
+#edit_title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+#edit_point_v {
+    margin-left: 15px;
+	margin-top: 5px;
+}
+
+#edit_point_v_input {
+    width: 40px;
+}
+
+#edit_point_s {
+    margin-left: 15px;
+}
+
+#edit_point_s_input {
+    width: 40px;
+}
+
+#edit_point_t {
+    margin-left: 15px;
+}
+
+#edit_point_t_input {
+    width: 40px;
+}
+
+#edit_point_d {
+    margin-left: 15px;
+}
+
+#edit_point_d_input {
+    width: 40px;
+}
+/*edit end*/
+
+/*opt start*/
+#opt {
+    position: absolute;
+    top: 620px;
+    left: 5px;
+    border: 0px solid #000;
+}
+
+#opt_btn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 792px;
+	height: 80px;
+	font-size:24px;
+	color:#0058ff;
+	font-weight: bold;
+}
+/*opt end*/
+
+
+/*res start*/
+#res {
+    position: absolute;
+    top: 470px;
+    left: 130px;
+    width: 540px;
+    height: 145px;
+    border: 1px solid #000;
+}
+
+#res_title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+#res_point_v {
+    margin-left: 5px;
+	margin-top: 5px;
+}
+
+#res_point_v_input {
+    width: 40px;
+}
+
+#res_point_s {
+    margin-left: 5px;
+}
+
+#res_point_s_input {
+    width: 40px;
+}
+
+#res_point_t {
+    margin-left: 5px;
+}
+
+#res_point_t_input {
+    width: 40px;
+}
+
+#res_point_d {
+    margin-left: 5px;
+}
+
+#res_point_d_input {
+    width: 40px;
+}
+
+#res_race {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+	margin-top: 30px;
+}
+
+#res_race_select {
+    width: 130px;
+}
+
+#res_pet {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+	margin-top: 30px;
+}
+
+#res_pet_select {
+    width: 130px;
+}
+
+#res_img {
+    position: absolute;
+    top: 40px;
+    left: 260px;
+}
+
+#res_img_show {
+    margin-left: 35px;
+    max-height: 150px;
+    width: auto;
+}
+
+#res_prop_p1 {
+    position: absolute;
+    top: 35px;
+    left: 420px;
+}
+
+#res_prop_p1 img {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #000;
+}
+
+#res_prop_p2 {
+    position: absolute;
+    top: 60px;
+    left: 420px;
+}
+
+#res_prop_p2 img {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #000;
+}
+
+#res_prop_p3 {
+    position: absolute;
+    top: 85px;
+    left: 420px;
+}
+
+#res_prop_p3 img {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #000;
+}
+
+#res_prop_p4 {
+    position: absolute;
+    top: 115px;
+    left: 420px;
+}
+
+#res_prop_p4 img {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #000;
+}
+
+#res_pred_total {
+    position: absolute;
+    top: 55px;
+    left: 100px;
+	margin-top: 30px;
+}
+
+#res_pred_author {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    font-size: 12px;
+    color: blue;
+	margin-top: 30px;
+}
+/*res end*/
+
+/*seach start*/
+#search {
+    position: absolute;
+    top: 470px;
+    left: 675px;
+    width: 120px;
+    height: 145px;
+    border: 1px solid #000;
+}
+
+#search_title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+#search_petname {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#search_petname_input {
+    width: 100px;
+}
+
+#search_race {
+    margin-left: 5px;
+}
+
+#search_race_input {
+    width: 100px;
+}
+
+/*seach end*/
+
+/*calc start*/
+#calc {
+    position: absolute;
+    top: 715px;
+    left: 15px;
+    width: 770px;
+    border: 0px solid #000;
+}
+
+#calc_pred_hp {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+#calc_pred_gj {
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+#calc_pred_fy {
+    position: absolute;
+    top: 0px;
+    left: 240px;
+}
+
+#calc_pred_mj {
+    position: absolute;
+    top: 0px;
+    left: 320px;
+}
+
+#calc_pred_czd {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+#calc_pred_czl {
+    position: absolute;
+    top: 0px;
+    left: 505px;
+}
+
+#calc_pred_pf {
+    position: absolute;
+    top: 0px;
+    left: 615px;
+    font-weight: bold;
+}
+
+#calc_pred_hp_min {
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    color: red;
+}
+
+#calc_pred_gj_min {
+    position: absolute;
+    top: 25px;
+    left: 160px;
+    color: red
+}
+
+#calc_pred_fy_min {
+    position: absolute;
+    top: 25px;
+    left: 240px;
+    color: red
+}
+
+#calc_pred_mj_min {
+    position: absolute;
+    top: 25px;
+    left: 320px;
+    color: red
+}
+
+#calc_pred_czd_min {
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    color: red;
+}
+
+#calc_pred_czl_min {
+    position: absolute;
+    top: 25px;
+    left: 505px;
+    color: red;
+}
+
+#calc_pred_pf_min {
+    position: absolute;
+    top: 25px;
+    left: 615px;
+    color: red;
+    font-weight: bold;
+}
+
+#calc_pred_hp_max {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    color: green;
+}
+
+#calc_pred_gj_max {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    color: green;
+}
+
+#calc_pred_fy_max {
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    color: green;
+}
+
+#calc_pred_mj_max {
+    position: absolute;
+    top: 50px;
+    left: 320px;
+    color: green;
+}
+
+#calc_pred_czd_max {
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    color: green;
+}
+
+#calc_pred_czl_max {
+    position: absolute;
+    top: 50px;
+    left: 505px;
+    color: green;
+}
+
+#calc_pred_pf_max {
+    position: absolute;
+    top: 50px;
+    left: 615px;
+    color: green;
+    font-weight: bold;
+}
+
+/*calc end*/
+
+/*others start*/
+#tips {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.tips_content {
+    padding: 15px;
+}
+
+.imgprop {
+    border: 1px solid #333;
+    width: 10px;
+    height: 10px;
+}
+
+.point_label_red {
+    color: red;
+}
+
+.point_label_red::before {
+    content: "";
+    color: red;
+    font-size: 14px;
+}
+
+.point_label_green {
+    color: green;
+}
+
+.point_label_green::before {
+    content: "+";
+    color: green;
+    font-size: 14px;
+}
+/*others end*/
