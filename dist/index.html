@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>石器时代融合宠计算器 V1.3</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="content">
+        <!--main-->
+        <div id="main">
+            <div id="main_title">主体</div>
+            <div id="main_race">
+                种族：
+                <select id="main_race_select">
+                </select>
+            </div>
+            <div id="main_pet">
+                宠物：
+                <select id="main_pet_select">
+                </select>
+            </div>
+            <div id="main_img">
+                <img id="main_img_show" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="宠物图片" />
+            </div>
+            <div id="main_point_v">
+                体：<input id="main_point_v_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="main_point_v_label" class="main_point_label">0</label>
+            </div>
+            <div id="main_point_s">
+                腕：<input id="main_point_s_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="main_point_s_label" class="main_point_label">0</label>
+            </div>
+            <div id="main_point_t">
+                耐：<input id="main_point_t_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="main_point_t_label" class="main_point_label">0</label>
+            </div>
+            <div id="main_point_d">
+                速：<input id="main_point_d_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="main_point_d_label" class="main_point_label">0</label>
+            </div>
+            <div id="main_mm">
+                <div id="main_mm_btn">
+                    <button id="main_mm_btn_bz">不转</button>
+                    <button id="main_mm_btn_ms">满石</button>
+                    <button id="main_mm_btn_dg">单攻</button>
+                    <button id="main_mm_btn_gm">攻敏</button>
+                    <button id="main_mm_btn_diy">自定义</button>
+                </div>
+                <div id="main_mm_inputs">
+                    <input id="main_mm_input_v" class="main_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                    <input id="main_mm_input_s" class="main_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                    <input id="main_mm_input_t" class="main_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                    <input id="main_mm_input_d" class="main_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                </div>
+            </div>
+            <div id="main_prop_p1">
+                地：
+            </div>
+            <div id="main_prop_p2">
+                水：
+            </div>
+            <div id="main_prop_p3">
+                火：
+            </div>
+            <div id="main_prop_p4">
+                风：
+            </div>
+            <div id="main_level">
+                等级：
+                <label><input type="radio" name="main_level_radio" value="1">&lt;120</label>
+                <label><input type="radio" name="main_level_radio" value="2">&lt;139</label>
+                <label><input type="radio" name="main_level_radio" value="3" checked>140</label>
+            </div>
+            <hr />
+            <div id="main_pred">
+                <button id="main_pred_btn">预测140级四维</button>
+            </div>
+            <div id="main_pred_hp">
+                HP：<label id="main_pred_hp_label">0</label>
+            </div>
+            <div id="main_pred_gj">
+                攻击：<label id="main_pred_gj_label">0</label>
+            </div>
+            <div id="main_pred_fy">
+                防御：<label id="main_pred_fy_label">0</label>
+            </div>
+            <div id="main_pred_mj">
+                敏捷：<label id="main_pred_mj_label">0</label>
+            </div>
+        </div>
+        <!--/main-->
+
+        <!--sub1-->
+        <div id="sub1">
+            <div id="sub1_title">客体1</div>
+            <div id="sub1_race">
+                种族：
+                <select id="sub1_race_select">
+                </select>
+            </div>
+            <div id="sub1_pet">
+                宠物：
+                <select id="sub1_pet_select">
+                </select>
+            </div>
+            <div id="sub1_img">
+                <img id="sub1_img_show" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="宠物图片" />
+            </div>
+            <div id="sub1_point_v">
+                体：<input id="sub1_point_v_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="sub1_point_v_label" class="sub1_point_label">0</label>
+            </div>
+            <div id="sub1_point_s">
+                腕：<input id="sub1_point_s_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="sub1_point_s_label" class="sub1_point_label">0</label>
+            </div>
+            <div id="sub1_point_t">
+                耐：<input id="sub1_point_t_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="sub1_point_t_label" class="sub1_point_label">0</label>
+            </div>
+            <div id="sub1_point_d">
+                速：<input id="sub1_point_d_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="sub1_point_d_label" class="sub1_point_label">0</label>
+            </div>
+            <div id="sub1_mm">
+                <div id="sub1_mm_btn">
+                    <button id="sub1_mm_btn_bz">不转</button>
+                    <button id="sub1_mm_btn_ms">满石</button>
+                    <button id="sub1_mm_btn_dg">单攻</button>
+                    <button id="sub1_mm_btn_gm">攻敏</button>
+                    <button id="sub1_mm_btn_diy">自定义</button>
+                </div>
+                <div id="sub1_mm_inputs">
+                    <input id="sub1_mm_input_v" class="sub1_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                    <input id="sub1_mm_input_s" class="sub1_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                    <input id="sub1_mm_input_t" class="sub1_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                    <input id="sub1_mm_input_d" class="sub1_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                </div>
+            </div>
+            <div id="sub1_prop_p1">
+                地：
+            </div>
+            <div id="sub1_prop_p2">
+                水：
+            </div>
+            <div id="sub1_prop_p3">
+                火：
+            </div>
+            <div id="sub1_prop_p4">
+                风：
+            </div>
+            <div id="sub1_level">
+                等级：
+                <label><input type="radio" name="sub1_level_radio" value="1">&lt;120</label>
+                <label><input type="radio" name="sub1_level_radio" value="2">&lt;139</label>
+                <label><input type="radio" name="sub1_level_radio" value="3" checked>140</label>
+            </div>
+            <hr />
+            <div id="sub1_pred">
+                <button id="sub1_pred_btn">预测140级四维</button>
+            </div>
+            <div id="sub1_pred_hp">
+                HP：<label id="sub1_pred_hp_label">0</label>
+            </div>
+            <div id="sub1_pred_gj">
+                攻击：<label id="sub1_pred_gj_label">0</label>
+            </div>
+            <div id="sub1_pred_fy">
+                防御：<label id="sub1_pred_fy_label">0</label>
+            </div>
+            <div id="sub1_pred_mj">
+                敏捷：<label id="sub1_pred_mj_label">0</label>
+            </div>
+        </div>
+        <!--/sub1-->
+
+        <!--sub2-->
+        <div id="sub2">
+            <div id="sub2_title">客体2</div>
+            <div id="sub2_race">
+                种族：
+                <select id="sub2_race_select">
+                </select>
+            </div>
+            <div id="sub2_pet">
+                宠物：
+                <select id="sub2_pet_select">
+                </select>
+            </div>
+            <div id="sub2_img">
+                <img id="sub2_img_show" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="宠物图片" />
+            </div>
+            <div id="sub2_point_v">
+                体：<input id="sub2_point_v_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="sub2_point_v_label" class="sub2_point_label">0</label>
+            </div>
+            <div id="sub2_point_s">
+                腕：<input id="sub2_point_s_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="sub2_point_s_label" class="sub2_point_label">0</label>
+            </div>
+            <div id="sub2_point_t">
+                耐：<input id="sub2_point_t_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="sub2_point_t_label" class="sub2_point_label">0</label>
+            </div>
+            <div id="sub2_point_d">
+                速：<input id="sub2_point_d_input" type="number" value="0" min="0" max="1000" step="1">
+                &nbsp;&nbsp;<label id="sub2_point_d_label" class="sub2_point_label">0</label>
+            </div>
+            <div id="sub2_mm">
+                <div id="sub2_mm_btn">
+                    <button id="sub2_mm_btn_bz">不转</button>
+                    <button id="sub2_mm_btn_ms">满石</button>
+                    <button id="sub2_mm_btn_dg">单攻</button>
+                    <button id="sub2_mm_btn_gm">攻敏</button>
+                    <button id="sub2_mm_btn_diy">自定义</button>
+                </div>
+                <div id="sub2_mm_inputs">
+                    <input id="sub2_mm_input_v" class="sub2_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                    <input id="sub2_mm_input_s" class="sub2_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                    <input id="sub2_mm_input_t" class="sub2_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                    <input id="sub2_mm_input_d" class="sub2_mm_input" type="number" value="0" min="0" max="1000" step="1">
+                </div>
+            </div>
+            <div id="sub2_prop_p1">
+                地：
+            </div>
+            <div id="sub2_prop_p2">
+                水：
+            </div>
+            <div id="sub2_prop_p3">
+                火：
+            </div>
+            <div id="sub2_prop_p4">
+                风：
+            </div>
+            <div id="sub2_level">
+                等级：
+                <label><input type="radio" name="sub2_level_radio" value="1">&lt;120</label>
+                <label><input type="radio" name="sub2_level_radio" value="2">&lt;139</label>
+                <label><input type="radio" name="sub2_level_radio" value="3" checked>140</label>
+            </div>
+            <hr />
+            <div id="sub2_pred">
+                <button id="sub2_pred_btn">预测140级四维</button>
+            </div>
+            <div id="sub2_pred_hp">
+                HP：<label id="sub2_pred_hp_label">0</label>
+            </div>
+            <div id="sub2_pred_gj">
+                攻击：<label id="sub2_pred_gj_label">0</label>
+            </div>
+            <div id="sub2_pred_fy">
+                防御：<label id="sub2_pred_fy_label">0</label>
+            </div>
+            <div id="sub2_pred_mj">
+                敏捷：<label id="sub2_pred_mj_label">0</label>
+            </div>
+        </div>
+        <!--/sub2-->
+
+        <!--editBase-->
+        <div id="edit">
+            <div id="edit_title">喂药(5级)</div>
+            <div id="edit_point_v">
+                体：<input id="edit_point_v_input" type="number" value="0" min="0" max="40" step="1">
+            </div>
+            <div id="edit_point_s">
+                腕：<input id="edit_point_s_input" type="number" value="40" min="0" max="40" step="1">
+            </div>
+            <div id="edit_point_t">
+                耐：<input id="edit_point_t_input" type="number" value="0" min="0" max="40" step="1">
+            </div>
+            <div id="edit_point_d">
+                速：<input id="edit_point_d_input" type="number" value="0" min="0" max="40" step="1">
+            </div>
+        </div>
+        <!--/editBase-->
+
+        <!--opt-->
+        <div id="opt">
+            <button id="opt_btn">点击此处查询融合造型</button>
+        </div>
+        <!--/opt-->
+
+        <!--res-->
+        <div id="res">
+            <div id="res_title">融合</div>
+            <div id="res_point_v">
+                体：<input id="res_point_v_input" type="number" value="0" min="0" max="1000" step="1" disabled>
+            </div>
+            <div id="res_point_s">
+                腕：<input id="res_point_s_input" type="number" value="0" min="0" max="1000" step="1" disabled>
+            </div>
+            <div id="res_point_t">
+                耐：<input id="res_point_t_input" type="number" value="0" min="0" max="1000" step="1" disabled>
+            </div>
+            <div id="res_point_d">
+                速：<input id="res_point_d_input" type="number" value="0" min="0" max="1000" step="1" disabled>
+            </div>
+
+            <div id="res_race">
+                种族：
+                <select id="res_race_select">
+                </select>
+            </div>
+            <div id="res_pet">
+                宠物：
+                <select id="res_pet_select">
+                </select>
+            </div>
+            <div id="res_img">
+                <img id="res_img_show" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="宠物图片" />
+            </div>
+
+            <div id="res_pred_total">
+                融合最高成长档：<label id="res_pred_total_label">0</label>
+            </div>
+
+            <div id="res_pred_author">
+                作者：wudics&nbsp;&nbsp;&nbsp;&nbsp;QQ：176367820
+            </div>
+
+            <div id="res_prop_p1">
+                地：
+            </div>
+            <div id="res_prop_p2">
+                水：
+            </div>
+            <div id="res_prop_p3">
+                火：
+            </div>
+            <div id="res_prop_p4">
+                风：
+            </div>
+        </div>
+        <!--/res-->
+
+        <!--calc-->
+        <div id="calc">
+            <div id="calc_pred_hp">
+                【随机】HP：<label id="calc_pred_hp_label">0</label>
+            </div>
+            <div id="calc_pred_gj">
+                攻：<label id="calc_pred_gj_label">0</label>
+            </div>
+            <div id="calc_pred_fy">
+                防：<label id="calc_pred_fy_label">0</label>
+            </div>
+            <div id="calc_pred_mj">
+                敏：<label id="calc_pred_mj_label">0</label>
+            </div>
+            <div id="calc_pred_czd">
+                成长档：<label id="calc_pred_czd_label">0</label>
+            </div>
+            <div id="calc_pred_czl">
+                成长率：<label id="calc_pred_czl_label">0</label>
+            </div>
+            <div id="calc_pred_pf">
+                评分：<label id="calc_pred_pf_label">0</label>
+            </div>
+
+            <div id="calc_pred_hp_min">
+                【次品】HP：<label id="calc_pred_hp_label_min">0</label>
+            </div>
+            <div id="calc_pred_gj_min">
+                攻：<label id="calc_pred_gj_label_min">0</label>
+            </div>
+            <div id="calc_pred_fy_min">
+                防：<label id="calc_pred_fy_label_min">0</label>
+            </div>
+            <div id="calc_pred_mj_min">
+                敏：<label id="calc_pred_mj_label_min">0</label>
+            </div>
+            <div id="calc_pred_czd_min">
+                成长档：<label id="calc_pred_czd_label_min">0</label>
+            </div>
+            <div id="calc_pred_czl_min">
+                成长率：<label id="calc_pred_czl_label_min">0</label>
+            </div>
+            <div id="calc_pred_pf_min">
+                评分：<label id="calc_pred_pf_label_min">0</label>
+            </div>
+
+            <div id="calc_pred_hp_max">
+                【极品】HP：<label id="calc_pred_hp_label_max">0</label>
+            </div>
+            <div id="calc_pred_gj_max">
+                攻：<label id="calc_pred_gj_label_max">0</label>
+            </div>
+            <div id="calc_pred_fy_max">
+                防：<label id="calc_pred_fy_label_max">0</label>
+            </div>
+            <div id="calc_pred_mj_max">
+                敏：<label id="calc_pred_mj_label_max">0</label>
+            </div>
+            <div id="calc_pred_czd_max">
+                成长档：<label id="calc_pred_czd_label_max">0</label>
+            </div>
+            <div id="calc_pred_czl_max">
+                成长率：<label id="calc_pred_czl_label_max">0</label>
+            </div>
+            <div id="calc_pred_pf_max">
+                评分：<label id="calc_pred_pf_label_max">0</label>
+            </div>
+        </div>
+        <!--/calc-->
+
+        <!--searchRace-->
+        <div id="search">
+            <div id="search_title">种族查询</div>
+            <div id="search_petname">
+                宠物：<br />
+                <input id="search_petname_input" type="text" placeholder="请输入宠物名称">
+            </div>
+            <div id="search_race">
+                种族：<by />
+                <input id="search_race_input" type="text" placeholder="查询结果" disabled>
+            </div>
+        </div>
+        <!--/searchRace-->
+    </div>
+
+    <div id="tips">
+        <div class="tips_content">
+            <b>使用说明</b><br />
+            <hr />
+            同时选择主体+客体1，点击查询出融合宠<br />
+            同时选择融合宠+主体，点击查询出客体1<br />
+            同时选择融合宠+客体1，点击查询出主体<br />
+            只选择融合宠，点击查询出主体+客体1配方<br />
+            只选择主体，点击查询出可能孵化的融合宠<br />
+            只选择客体1，点击查询出可能孵化的融合宠<br />
+            支持种族查询，输入宠物名称后可查询所属种族<br />
+            支持MM转生模拟，对未转生的宠物转生模拟，对已转生的宠物不使用该功能<br />
+            支持140级数据预测，基于填写的成长档数值预测140级四维属性<br />
+            支持融合宠数据预测，基于主体、客体1、客体2的成长档模拟并预测融合宠战力
+        </div>
+    </div>
+
+    <script src="safusion.bundle.js"></script>
+</body>
+</html>

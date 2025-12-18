@@ -1,0 +1,15 @@
+{
+  "name": "safusion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "jquery": "^3.7.1",
+    "sweetalert2": "^11.22.2",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1"
+  }
+}
