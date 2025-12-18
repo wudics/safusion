@@ -2,6 +2,8 @@
 
 石器时代融合查询器是通过JS代码编写的，使用yarn管理代码并通过WEBPACK打包为safusion.bundle.js文件。
 
+demo地址：https://safusion.github.io/
+
 # 源码结构
 
 - `src/`：源码目录
